@@ -4,27 +4,18 @@ void	ft_print_alphabet(void);
 
 void	ft_putchar(char c)
 {
-	write(1,&c,1);
+	write(1, &c, 1);	
 }
-
-int		main(void)
-{
-void	ft_print_alphabet(void);
-}
-
-
-
 
 void	ft_print_alphabet(void)
 {
+	char i;
+	i = 'a';
 
-	char = "alpha";
-	alpha = 0;
-
-	while( "alpha" <= 'z')
+	while(i <= 'z')
 	{
-		ft_putchar(alpha);
-		alpha++;	
+		ft_putchar(i);
+		i++;
 	}
-
+	ft_putchar('\n');
 }
